@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testing.raynesim.customviewgroupdemo.MainActivity">
+
+    <com.example.testing.raynesim.customviewgroupdemo.CircleMenuLayout
+        android:id="@+id/id_menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher_round">
+
+    </com.example.testing.raynesim.customviewgroupdemo.CircleMenuLayout>
+    <!--<ListView-->
+        <!--android:id="@+id/id_menu_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</ListView>-->
+</android.support.constraint.ConstraintLayout>
